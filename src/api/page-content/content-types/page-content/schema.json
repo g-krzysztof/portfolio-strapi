@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_contents",
+  "info": {
+    "singularName": "page-content",
+    "pluralName": "page-contents",
+    "displayName": "pageContent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
